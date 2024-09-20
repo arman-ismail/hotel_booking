@@ -1,4 +1,4 @@
-from connection import connect_db
+from conection import connect_db
 
 class Room:
     def __init__(self, room_type, price_per_night, is_available=True):
